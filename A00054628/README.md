@@ -26,8 +26,8 @@ seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bi
                                    ![](Imagenes/Información_Máquina.png)  
  ``~uname -s``: muestra el nombre del kernel del sistema operativo.  
  ``~uname -n``: muestra el nombre por el que se identifica el sistema en la red.  
- ``~uname -a``: muestra toda la información sobre el tipo de sistema que se esta utilizando.  
- ``~uname -m``: muestra el tipo de arquitectura que se esta utilizando.  
+ ``~uname -a``: muestra toda la información sobre el tipo de sistema que se está utilizando.  
+ ``~uname -m``: muestra el tipo de arquitectura que se está utilizando.  
  ``~uname -r``: muestra la última actualización del kernel, la última versión lanzada.  
  ``~uname -v``: muestra la versión del kernel.  
  ``~uname -p``: muestra el tipo de procesador.  
