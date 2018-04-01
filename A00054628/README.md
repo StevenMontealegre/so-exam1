@@ -24,15 +24,15 @@ seleccionamos el tipo (Linux) y la versión de la máquina virtual (Debian 64 bi
 
 **Información del SO Debian 9:**  
                                    ![](Imagenes/Información_Máquina.png)  
- ``~Uname -s``: muestra el nombre del kernel del sistema operativo.  
- ``~Uname -n``: muestra el nombre por el que se identifica el sistema en la red.  
- ``~Uname -a``: muestra toda la información sobre el tipo de sistema que se esta utilizando.  
- ``~Uname -m``: muestra el tipo de arquitectura que se esta utilizando.  
- ``~Uname -r``: muestra la última actualización del kernel, la última versión lanzada.  
- ``~Uname -v``: muestra la versión del kernel.  
- ``~Uname -p``: muestra el tipo de procesador.  
- ``~Uname -o``: muestra el sistema operativo.  
- ``~Uname``: hace lo mismo que el comando ``Uname -s``.  
+ ``~uname -s``: muestra el nombre del kernel del sistema operativo.  
+ ``~uname -n``: muestra el nombre por el que se identifica el sistema en la red.  
+ ``~uname -a``: muestra toda la información sobre el tipo de sistema que se esta utilizando.  
+ ``~uname -m``: muestra el tipo de arquitectura que se esta utilizando.  
+ ``~uname -r``: muestra la última actualización del kernel, la última versión lanzada.  
+ ``~uname -v``: muestra la versión del kernel.  
+ ``~uname -p``: muestra el tipo de procesador.  
+ ``~uname -o``: muestra el sistema operativo.  
+ ``~uname``: hace lo mismo que el comando ``uname -s``.  
 
 ### 5 Configuración putty
 Para poder conectarse con la máquina por medio de putty, primero la máquina virtual debe tener conexión a internet (este paso se ha hecho previamente al momento de instalar la máquina virtual, en la configuración de la máquina virtual se ha habilitado un adaptador puente, en mi caso le dí la opción de que permitiera crear conexiónes de red de área local inalámbrica) luego de esto abrimos putty, le damos la ip que nos muestra la máquina mediante el comando ```~ip a```, seleccionamos ssh, en puerto ponemos el 22 y finalmente damos aceptar e iniciamos la conexión, si la conexión no se pudo hacer, se debe ejecutar el siguiente comando en la máquina virtual para corregir este error:
