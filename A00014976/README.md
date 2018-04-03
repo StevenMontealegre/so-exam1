@@ -18,9 +18,23 @@ Cuando hemos finalizado las primeras configuraciones, ingresamos a almacenamient
 A continuación configuramos las tarjetas de red, conservamos el NAT, y asignamos un adaptador de puente. Terminado esto, damos clic en
 iniciar. Durante este proceso debemos instalar la configuración gráfica, seleccionamos un idioma, asignamos clave y usuarios. Finalmente
 damos click en continuar.
-
-### 5. CONFIGURACIÓN DE LA INTERFAZ DE RED Y CONEXIÓN CON PUTTY
+![](images/7.png)
+``~uname a`` : Presenta información sobre el sistema operativo.  
+``~uname m`` : Indica el tipo de arquitectura del procesador.  
+``~uname o`` : Indica el sistema operativo.  
+### 5. CONFIGURACIÓN DE LA INTERFAZ DE RED Y CONEXIÓN CON PUTTY  
+Para llevar a cabo la comunicación de la máquina virtual con MTPutty debemos configurar  primeramente en la máquina las interfaces de red (adaptador de puente), seguido, ejecutamos MTPutty, ingresamos la ip de nuestra máquina virtual (para conocer esta, en la terminal escribimos el comando ``ip a``), el username, la clave de nuestra máquina y damos aceptar. Si la conexión no logra establecerse entre la máquina y el MTPutty se recomienda en la terminal de la máquina ingresar el siguiente comando: ``apt-get install openssh-server``
 ![](images/4.jpg)
-Para llevar a cabo la comunicación de la máquina virtual con MTPutty 
+![](images/10.jpg)
+
+### 6. INSTALACIÓN DE TIG && GIT  
+Cambiamos de usuario a root, seguido ejecutamos los comandos:  
+``apt-get update``    
+``apt-get install tig``    
+Podemos observarlo más en detalle en la imagen acontinuación:    
+![](images/8.png)  
+Historial de commints que 
+
+## 7. 
 
 ###8. CUADRO COMPARATIVO ENTRE CENTOS7 - DEBIAN9
