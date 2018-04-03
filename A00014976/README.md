@@ -8,7 +8,8 @@ La imagen del SO fue descargada de la siguiente URL: https://www.debian.org/dist
 dirigimos a la siguiente URL: http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html con el fin de descargar
 el programa que  permite validar la autenticidad de la imagen. Con el MD5 instalado, cargamos la imagen Debian y copiamos el
 siguiente código de verificación: 73bd8aaaeb843745ec939f6ae3906e48. Si la respuesta es correcta (que fue mi caso) garantizamos
-que la imagén es fiable, entonces procedemos a la instalación.
+que la imagén es fiable, entonces procedemos a la instalación.  
+
 ![](images/1.png)
 
 ### 4. SECUENCIA DE PASOS PARA LA INSTALACIÓN DE LA IMAGEN DEL SO
@@ -17,26 +18,35 @@ necesarios para correr la máquina, Almacenamiento, memoria RAM, disco duro. Seg
 Cuando hemos finalizado las primeras configuraciones, ingresamos a almacenamiento y cargamos la imagen de Debian que habíamos descargado.
 A continuación configuramos las tarjetas de red, conservamos el NAT, y asignamos un adaptador de puente. Terminado esto, damos clic en
 iniciar. Durante este proceso debemos instalar la configuración gráfica, seleccionamos un idioma, asignamos clave y usuarios. Finalmente
-damos click en continuar.
-![](images/7.png)
+damos click en continuar.  
+
+![](images/7.png)  
+
 ``~uname a`` : Presenta información sobre el sistema operativo.  
 ``~uname m`` : Indica el tipo de arquitectura del procesador.  
 ``~uname o`` : Indica el sistema operativo.  
-### 5. CONFIGURACIÓN DE LA INTERFAZ DE RED Y CONEXIÓN CON PUTTY  
-Para llevar a cabo la comunicación de la máquina virtual con MTPutty debemos configurar  primeramente en la máquina las interfaces de red (adaptador de puente), seguido, ejecutamos MTPutty, ingresamos la ip de nuestra máquina virtual (para conocer esta, en la terminal escribimos el comando ``ip a``), el username, la clave de nuestra máquina y damos aceptar. Si la conexión no logra establecerse entre la máquina y el MTPutty se recomienda en la terminal de la máquina ingresar el siguiente comando: ``apt-get install openssh-server``
-![](images/4.jpg)
-![](images/10.jpg)
 
-### 6. INSTALACIÓN DE TIG && GIT  
+### 5. CONFIGURACIÓN DE LA INTERFAZ DE RED Y CONEXIÓN CON PUTTY  
+Para llevar a cabo la comunicación de la máquina virtual con MTPutty debemos configurar  primeramente en la máquina las interfaces de red (adaptador de puente), seguido, ejecutamos MTPutty, ingresamos la ip de nuestra máquina virtual (para conocer esta, en la terminal escribimos el comando ``ip a``), el username, la clave de nuestra máquina y damos aceptar. Si la conexión no logra establecerse entre la máquina y el MTPutty se recomienda en la terminal de la máquina ingresar el siguiente comando: ``apt-get install openssh-server``  
+
+![](images/4.jpg)  
+![](images/10.jpg)  
+
+### 6. INSTALACIÓN DE TIG && GIT   
+
 Cambiamos de usuario a root, seguido ejecutamos los comandos:  
 ``apt-get update``    
 ``apt-get install tig``    
-Podemos observarlo más en detalle en la imagen acontinuación:    
+Podemos observarlo más en detalle en la imagen acontinuación:  
+
 ![](images/8.png)  
-Historial de commits que se llevaron a cabo para la solución del parcial:  
-![](images/9.jpg)
+
+Historial de commits que se llevaron a cabo para la solución del parcial:   
+
+![](images/9.jpg)  
 
 ### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
 
 ### 8. CUADRO COMPARATIVO  
+
 ![](images/Captura.PNG)  
