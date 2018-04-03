@@ -33,8 +33,10 @@ Cambiamos de usuario a root, seguido ejecutamos los comandos:
 ``apt-get install tig``    
 Podemos observarlo más en detalle en la imagen acontinuación:    
 ![](images/8.png)  
-Historial de commints que 
+Historial de commints que se llevaron a cabo para la solución del parcial:  
+![](images/9.jpg)
 
-## 7. 
+### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
 
-###8. CUADRO COMPARATIVO ENTRE CENTOS7 - DEBIAN9
+### 8. CUADRO COMPARATIVO  
+![](images/Captura.PNG)  
