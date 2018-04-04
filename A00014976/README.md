@@ -41,13 +41,19 @@ Podemos observarlo más en detalle en la imagen acontinuación:
 
 ![](images/8.png)  
 
-Historial de commits que se llevaron a cabo para la solución del parcial:   
-
+Historial de commits que se llevaron a cabo para la solución del parcial:    
 ![](images/9.jpg)  
 
 ### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
+Seleccionamos la máquina virtual que deseamos exportar:  
 
 ![](images/11.jpg)  
+
+Buscamos la opción exportar servicio virtualizado en ``Archivo``  
+![](images/18.jpg)  
+
+
+
 
 
 ### 8. CUADRO COMPARATIVO  
