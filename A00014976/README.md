@@ -47,6 +47,9 @@ Historial de commits que se llevaron a cabo para la solución del parcial:
 
 ### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
 
+![](images/11.jpg)  
+
+
 ### 8. CUADRO COMPARATIVO  
 
 ![](images/Captura.PNG)  
