@@ -38,9 +38,7 @@ Cambiamos de usuario a root, seguido ejecutamos los comandos:
 ``apt-get update``    
 ``apt-get install tig``    
 Podemos observarlo más en detalle en la imagen acontinuación:  
-
 ![](images/8.png)  
-
 Historial de commits que se llevaron a cabo para la solución del parcial:    
 ![](images/9.jpg)  
 
@@ -55,14 +53,16 @@ Si deseamos cambiar algo en las configuraciones antes de exportar este es el mom
 ![](images/15.jpg)  
 Finalmente exportamos...  
 ![](images/16.jpg)  
-
-
-
-
-
-
-
-
+Para recuperar la máquina en un PC de la sala, ejecutamos virtualBox y buscamos en ``Archivo`` Importar servicio virtualizado  
+![](images/12.jpg)  
+Buscamos el sitio en donde hemos dejado el fichero de nuestra máquina  
+![](images/19.jpg)  
+Selecccionamos...
+![](images/20.jpg)  
+Validamos las opciones de configuración de la máquina  
+![](images/21.jpg)  
+Finalmente importamos...  
+![](images/22.jpg)  
 
 ### 8. CUADRO COMPARATIVO  
 
