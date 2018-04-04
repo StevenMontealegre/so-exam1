@@ -1,7 +1,7 @@
 ### Examen parcial #1
 ### Nombre: James Steven Montealegre Gutiérrez
 ### Código: A00014976
-### url github: https://github.com/StevenMontealegre/so-exam1.git
+### Github address: https://github.com/StevenMontealegre/so-exam1.git
 
 ### 3. VALIDACIÓN DE LA IMAGEN LINUX DEBIAN9
 La imagen del SO fue descargada de la siguiente URL: https://www.debian.org/distrib/netinst#smallcd. Con la imagen en el computador, nos
@@ -90,4 +90,4 @@ Finalmente importamos...
 
 ### 8. CUADRO COMPARATIVO  
 
-![](images/Captura.PNG)  
+![](images/CapturaFinal.jpg)  
