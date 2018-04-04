@@ -46,11 +46,19 @@ Historial de commits que se llevaron a cabo para la solución del parcial:
 
 ### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
 Seleccionamos la máquina virtual que deseamos exportar:  
-
 ![](images/11.jpg)  
-
 Buscamos la opción exportar servicio virtualizado en ``Archivo``  
 ![](images/18.jpg)  
+Asignamos un ruta en la cual almacenar el archivo ``.ova`` que corresponderá al fichero con el cual podemos recuperar el estado de nuestra máquina.  
+![](images/14.jpg)  
+Si deseamos cambiar algo en las configuraciones antes de exportar este es el momento  
+![](images/15.jpg)  
+Finalmente exportamos...  
+![](images/16.jpg)  
+
+
+
+
 
 
 
