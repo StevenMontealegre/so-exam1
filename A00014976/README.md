@@ -36,33 +36,57 @@ Para llevar a cabo la comunicación de la máquina virtual con MTPutty debemos c
 
 Cambiamos de usuario a root, seguido ejecutamos los comandos:  
 ``apt-get update``    
-``apt-get install tig``    
+``apt-get install tig``  
+
 Podemos observarlo más en detalle en la imagen acontinuación:  
+
 ![](images/8.png)  
-Historial de commits que se llevaron a cabo para la solución del parcial:    
-![](images/9.jpg)  
+
+Historial de commits que se llevaron a cabo para la solución del parcial:  
+
+![](images/9.jpg)    
 
 ### 7. EXPORTACIÓN E IMPORTACIÓN DE LA MÁQUINA VIRTUAL A UN PC DE LA SALA.  
 Seleccionamos la máquina virtual que deseamos exportar:  
+
 ![](images/11.jpg)  
+
 Buscamos la opción exportar servicio virtualizado en ``Archivo``  
+
 ![](images/18.jpg)  
+
 Asignamos un ruta en la cual almacenar el archivo ``.ova`` que corresponderá al fichero con el cual podemos recuperar el estado de nuestra máquina.  
+
 ![](images/14.jpg)  
+
 Si deseamos cambiar algo en las configuraciones antes de exportar este es el momento  
+
 ![](images/15.jpg)  
+
 Finalmente exportamos...  
+
 ![](images/16.jpg)  
+
 Para recuperar la máquina en un PC de la sala, ejecutamos virtualBox y buscamos en ``Archivo`` Importar servicio virtualizado  
+
 ![](images/12.jpg)  
-Buscamos el sitio en donde hemos dejado el fichero de nuestra máquina  
+
+Buscamos el sitio en donde hemos dejado el fichero de nuestra máquina    
+
 ![](images/19.jpg)  
-Selecccionamos...
+
+Selecccionamos...  
+
 ![](images/20.jpg)  
+
 Validamos las opciones de configuración de la máquina  
+
 ![](images/21.jpg)  
+
 Finalmente importamos...  
+
 ![](images/22.jpg)  
+
 
 ### 8. CUADRO COMPARATIVO  
 
